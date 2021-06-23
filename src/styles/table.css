@@ -1,0 +1,71 @@
+#webApi {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #webApi td, #webApi th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #webApi tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #webApi tr:hover {background-color: #ddd;}
+  
+  #webApi th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .search-section {
+      margin-bottom: 20px;
+  }
+
+  .search-bar {
+      margin-left: 10px;
+      padding: 5px;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+      border: 1px solid #04AA6D;
+  }
+
+.triangle-down, .triangle-up {
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+    margin-left: 3px;
+}
+
+.triangle-down {
+	border-top: 10px solid #555;
+}
+
+.triangle-up {
+	border-bottom: 10px solid #555;
+}
+
+.pointer {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.image-thumbnail img {
+    width: 35%;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.image-thumbnail img:hover{
+    transform: scale(1.2);
+}
+
+.image-main img {
+    width: 100%;
+    cursor: pointer;
+}
