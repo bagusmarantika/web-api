@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import '../styles/table.css'
+import React, { useState } from 'react'
+// import '../styles/table.css'
 
 const Table = ({data}) => {
 

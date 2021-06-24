@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Table from './components/Table'
+import Cards from './components/Cards';
+// import Table from './components/Table'
 import './styles/app.css'
 
 const axios = require('axios');
@@ -42,7 +43,8 @@ export default class App extends Component {
     console.log("dataa: ", this.state.data)
     return (
       <div className="App">
-        <Table data = {this.state.data}/>
+        {/* <Table data = {this.state.data} /> */}
+        <Cards data = {this.state.data} />
       </div>
     )
   }
